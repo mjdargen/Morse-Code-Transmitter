@@ -11,23 +11,26 @@ to Morse Code. Blinks an LED and buzzes an active
 buzzer to signal the Morse Code.  
 \
 \
-LED: visual morse code representation
+**LED: visual morse code representation**
 * Digital output pin 2
 * Has 220 ohm series resistor
 * Lights up every time there is a dot or dash
 
-Active Buzzer: auditory morse code representation 
+**Active Buzzer: auditory morse code representation**  
 * Digital output pin 3
 * Has 100 ohm series resistor to limit volume
 * Beeps every time there is a dot or dash
 
-International Morse Code
-* 1. The length of a dot is one unit.
-* 2. A dash is three units.
-* 3. The space between parts of the same letter is one unit.
-* 4. The space between letters is three units.
-* 5. The space between words is seven units.
+**International Morse Code**
+1. The length of a dot is one unit.
+2. A dash is three units.
+3. The space between parts of the same letter is one unit.
+4. The space between letters is three units.
+5. The space between words is seven units.  
 
+
+[//]: # (Hello)  
+      
 |Category      |  Character                 |  Code                 |  
 | ------------ |:--------------------------:| ---------------------:|
 |Letters       |  A, a                      |  · −                  |  
