@@ -5,11 +5,9 @@ https://dargenio.dev
 https://github.com/mjdargen  
 September 19, 2019*  
 \
-\
 Takes input from the serial port and converts it
 to Morse Code. Blinks an LED and buzzes an active
 buzzer to signal the Morse Code.  
-\
 \
 **LED: visual morse code representation**
 * Digital output pin 2
