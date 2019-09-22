@@ -24,7 +24,19 @@ buzzer to signal the Morse Code.
 2. A dash is three units.
 3. The space between parts of the same letter is one unit.
 4. The space between letters is three units.
-5. The space between words is seven units.  
+5. The space between words is seven units.    
+
+
+[//]: # (Hello)  
+      
+
+<p align="center">
+  <img src="https://github.com/mjdargen/Morse-Code-Transmitter/blob/master/morsecode_bb.png" width="600">
+</p>
+
+<p align="center">
+  <img src="https://github.com/mjdargen/Morse-Code-Transmitter/blob/master/morsecode_schem.png" width="600">
+</p>
 
 
 [//]: # (Hello)  
