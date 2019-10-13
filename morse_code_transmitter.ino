@@ -104,8 +104,8 @@ void setup() {
   }
 
   // configure output pins
-  pinMode(ledPin, OUTPUT);
-  pinMode(buzzerPin, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
 
   // send an intro:
   Serial.println("Morse code transmitter is ready");
@@ -617,39 +617,39 @@ void morse_translator (char letter) {
 
 /* dot function */
 void dot() {
-  digitalWrite(ledPin,HIGH);
-  digitalWrite(buzzerPin,HIGH);
+  digitalWrite(LED_PIN,HIGH);
+  digitalWrite(BUZZER_PIN,HIGH);
   delay(TIME_UNIT);
   pause();
 }
 
 /* dash function */
 void dash() {
-  digitalWrite(ledPin,HIGH);
-  digitalWrite(buzzerPin,HIGH);
+  digitalWrite(LED_PIN,HIGH);
+  digitalWrite(BUZZER_PIN,HIGH);
   delay(TIME_UNIT * 3);
   pause();
 }
 
 /* pause between parts of the same letter - 1 unit */
 void pause() {
-  digitalWrite(ledPin,LOW);
-  digitalWrite(buzzerPin,LOW);
+  digitalWrite(LED_PIN,LOW);
+  digitalWrite(BUZZER_PIN,LOW);
   delay(TIME_UNIT);
 }
 
 /* pause between different letters - 3 units */
 void letter_pause() {
-  digitalWrite(ledPin,LOW);
-  digitalWrite(buzzerPin,LOW);
+  digitalWrite(LED_PIN,LOW);
+  digitalWrite(BUZZER_PIN,LOW);
   // only wait 2 beats because pause after each part
   delay(TIME_UNIT * 2);
 }
 
 /* pause between different words - 7 units */
 void word_pause() {
-  digitalWrite(ledPin,LOW);
-  digitalWrite(buzzerPin,LOW);
+  digitalWrite(LED_PIN,LOW);
+  digitalWrite(BUZZER_PIN,LOW);
   // only wait 4 beats because pause after each letter
   delay(TIME_UNIT * 4);
 }
